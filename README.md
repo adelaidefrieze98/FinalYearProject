@@ -1,5 +1,3 @@
-# FinalYearProject
-
 This is a short explanation of what each file does. 
 
 # dataToCSV
@@ -10,14 +8,14 @@ The optical data provided by Microsoft came in the form of .txt files. This prog
 
 Added columns and assigned types using pandas dataframe to the data in the .csv files. Set up and construction of various required variables to access InfluxDB database. Writing the data into the InfluxDB database. Looping through each .csv files.
 
-#stationaritytest
+# stationarityTest
 
 Data is extracted from InfluxDB and tested for stationarity.
 
-#modelTrainingActual
+# modelTrainingActual
 
 Non-anomalous data is split into validation, training and testing sets. Model trained with fine-tuned parameters, and trained on validation and training sets. The model then successfully predicts test sets. 
 
-#modelTrainingActual-Anomaly and modelTrainingActual-Anomaly-Multivariate
+# modelTrainingActual-Anomaly and modelTrainingActual-Anomaly-Multivariate
 
 Different attempts to predict anomalous data using single-variate and multi-variate data. Unfortunately, due to time constraints and resource limitations, anomaly was not predicted, but was fun to explore the different ways of using the data and the challenge. 
